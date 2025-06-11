@@ -1,0 +1,28 @@
+{
+  "name": "dylan-cli-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "dylan-cli-dev": "bin/index.js"
+  },
+  "workspaces": [
+    "core",
+    "commands",
+    "models",
+    "utils"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^8.2.2"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "import-local": "^3.2.0",
+    "npmlog": "^7.0.1"
+  }
+}

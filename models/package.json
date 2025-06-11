@@ -1,0 +1,19 @@
+{
+  "name": "@dylan-cli-dev/models",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "coderhch <hechunhuidylan@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/models.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/models.test.js"
+  }
+}
